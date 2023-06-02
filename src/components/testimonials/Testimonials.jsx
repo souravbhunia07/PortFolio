@@ -1,9 +1,9 @@
 import React from 'react';
 import './testimonials.css';
-import AVTR1 from '../../assets/avatar1.jpg';
-import AVTR2 from '../../assets/avatar2.jpg';
-import AVTR3 from '../../assets/avatar3.jpg';
-import AVTR4 from '../../assets/avatar4.jpg';
+// import AVTR1 from '';
+// import AVTR2 from '';
+// import AVTR3 from '';
+// import AVTR4 from '';
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -17,26 +17,26 @@ import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 
 const data = [
-  {
-    avatar: AVTR1,
-    name: 'Tina Show',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, assumenda, cum cumque possimus pariatur illo ea repudiandae labore nemo fugit reiciendis voluptate vel veniam fugiat at saepe recusandae exercitationem cupiditate.'
-  },
-  {
-    avatar: AVTR2,
-    name: 'Tina Show',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, assumenda, cum cumque possimus pariatur illo ea repudiandae labore nemo fugit reiciendis voluptate vel veniam fugiat at saepe recusandae exercitationem cupiditate.'
-  },
-  {
-    avatar: AVTR3,
-    name: 'Tina Show',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, assumenda, cum cumque possimus pariatur illo ea repudiandae labore nemo fugit reiciendis voluptate vel veniam fugiat at saepe recusandae exercitationem cupiditate.'
-  },
-  {
-    avatar: AVTR4,
-    name: 'Tina Show',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, assumenda, cum cumque possimus pariatur illo ea repudiandae labore nemo fugit reiciendis voluptate vel veniam fugiat at saepe recusandae exercitationem cupiditate.'
-  },
+  // {
+  //   avatar: AVTR1,
+  //   name: 'Tina Show',
+  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, assumenda, cum cumque possimus pariatur illo ea repudiandae labore nemo fugit reiciendis voluptate vel veniam fugiat at saepe recusandae exercitationem cupiditate.'
+  // },
+  // {
+  //   avatar: AVTR2,
+  //   name: 'Tina Show',
+  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, assumenda, cum cumque possimus pariatur illo ea repudiandae labore nemo fugit reiciendis voluptate vel veniam fugiat at saepe recusandae exercitationem cupiditate.'
+  // },
+  // {
+  //   avatar: AVTR3,
+  //   name: 'Tina Show',
+  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, assumenda, cum cumque possimus pariatur illo ea repudiandae labore nemo fugit reiciendis voluptate vel veniam fugiat at saepe recusandae exercitationem cupiditate.'
+  // },
+  // {
+  //   avatar: AVTR4,
+  //   name: 'Tina Show',
+  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, assumenda, cum cumque possimus pariatur illo ea repudiandae labore nemo fugit reiciendis voluptate vel veniam fugiat at saepe recusandae exercitationem cupiditate.'
+  // },
 ]
 
 const Testimonials = () => {
